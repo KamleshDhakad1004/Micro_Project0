@@ -1,0 +1,95 @@
+.header {
+    height: 500px;
+    width: 100%;
+    background-color: #FFCD9E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main_content{
+    font-family: Inter;
+    width: 650px;
+    margin: 40px  0  0  40px;
+}
+.main_content>h1{
+    width: 500px;
+}
+.main_content>.main_content>p:nth-child(2) {
+
+    line-height: 22px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.main_content>p:nth-child(6) {
+    margin-left: 24px;
+    color: white;
+    line-height: 34px;
+}
+
+
+.main-image>img {
+    width: 500px;
+    height: 500px;
+
+}
+
+.main_content>input {
+    height: 35px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 7px;
+    margin: 15px 8px 0px 0px;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.main_content>button {
+
+    background-color: black;
+    color: white;
+    border: 7px solid black;
+    border-radius: 7px;
+    height: 40px;
+    width: 155px;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+
+
+.footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+
+}
+
+.footer>.list_item>ul {
+    list-style: none;
+
+    line-height: 30px;
+    margin-left: 140px;
+
+}
+
+.footer>.info>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    line-height: 25px;
+    margin-left: 760px;
+}
